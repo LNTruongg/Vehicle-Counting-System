@@ -15,7 +15,7 @@ Real-time vehicle detection, tracking, and counting system using **YOLOv8** and 
 5. Count the vehicle only once after its center crosses the virtual counting line.
 6. Display live statistics on the screen.
 
-# ⚙️ Requirements
+#  Requirements
 
 * Python 3.8+
 * OpenCV
@@ -97,7 +97,7 @@ detector.run("your_video.mp4")
 
 
 
-# ⚙️ Configuration
+#  Configuration
 
 Several parameters can be adjusted inside `check.py`.
 
