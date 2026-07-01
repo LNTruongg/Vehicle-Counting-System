@@ -1,13 +1,7 @@
 # 🚗 YOLOv8 Vehicle Detection, Tracking and Counting
-
 Real-time vehicle detection, tracking, and counting system using **YOLOv8** and **ByteTrack**. The application detects multiple vehicle types from a traffic video, assigns a unique ID to each vehicle, and counts vehicles automatically when they cross a predefined counting line.
 
-## Overview
-
-This project demonstrates a computer vision pipeline for intelligent traffic analysis using the Ultralytics YOLOv8 framework.
-
 ## 🎬 Demo
-
 <p align="center">
   <img src="count_car.gif" width="900">
 </p>
