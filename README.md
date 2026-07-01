@@ -9,7 +9,7 @@ This project demonstrates a computer vision pipeline for intelligent traffic ana
 ## 🎬 Demo
 
 <p align="center">
-  <img src="output/demo.gif" width="900">
+  <img src="count_car.gif" width="900">
 </p>
 
 #  Counting Logic
