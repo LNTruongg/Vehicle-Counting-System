@@ -1,10 +1,36 @@
 # 🚗 YOLOv8 Vehicle Detection, Tracking and Counting
 ## Overview
-Real-time vehicle detection, tracking, and counting system using **YOLOv8** and **ByteTrack**. The application detects multiple vehicle types from a traffic video, assigns a unique ID to each vehicle, and counts vehicles automatically when they cross a predefined counting line. This project implements a real-time vehicle detection, tracking, and counting system using **YOLOv8** and **ByteTrack**. The system detects multiple vehicle categories from traffic videos, assigns persistent IDs to tracked objects, and counts each vehicle only once when it crosses a predefined virtual counting line.
+A real-time vehicle detection, tracking, and counting system built with YOLOv8 and ByteTrack. The system detects multiple vehicle classes, tracks them with persistent IDs, and accurately counts each vehicle as it crosses a virtual counting line.
 ## 🎬 Demo
 <p align="center">
   <img src="count_car.gif" width="900">
 </p>
+# 📂 Dataset
+
+This project uses a custom vehicle detection dataset obtained from **Roboflow Universe**.
+
+## Download Dataset
+
+1. Visit **Roboflow Universe**.
+2. Search for a vehicle detection dataset (e.g., cars, trucks, buses, motorcycles).
+3. Click **Download Dataset**.
+4. Select the **YOLOv8** export format.
+5. Extract the downloaded dataset into your project directory.
+
+Example project structure:
+
+```text
+dataset/
+├── train/
+│   ├── images/
+│   └── labels/
+├── valid/
+│   ├── images/
+│   └── labels/
+├── test/
+│   ├── images/
+│   └── labels/
+└── data.yaml
 
 #  Counting Logic
 
